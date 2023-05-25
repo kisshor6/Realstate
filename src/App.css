@@ -1,0 +1,300 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  height: 60px;
+  width: auto;
+  margin-left: 3rem;
+}
+
+.btn {
+  outline: none;
+}
+
+.btn :hover {
+  outline: none;
+}
+
+.background_container {
+  background: rgba(0, 0, 0, 0.7) url("https://source.unsplash.com/1600x600/?realstate,appartment");
+  height: 60vh;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.search-part {
+  display: flex;
+  height: 50vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.search_container {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 0.5rem;
+  display: flex;
+}
+
+
+.form_field {
+  padding: 0.5rem 2rem;
+  font-size: 20px;
+}
+
+.form_submit {
+  padding: 0.5rem 1rem;
+  font-size: 20px;
+}
+
+.Footer {
+  background: black;
+  height: auto;
+}
+
+.footer_container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  text-align: center;
+  color: #fff;
+}
+
+.icon_list a {
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  background-color: rgba(225, 225, 225, 0.2);
+  margin: 20px 10px 10px 0;
+  text-align: center;
+  line-height: 50px;
+  border-radius: 50%;
+  color: white;
+}
+
+.icon_list a:hover {
+  background-color: rgba(243, 181, 67, 0.945);
+}
+
+.app-logo img {
+  width: 150px;
+  margin: 0 4px;
+}
+
+.footer_logo {
+  width: 100px;
+}
+
+.second-row p {
+  font-size: 1.1rem;
+
+}
+
+.upper_header {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  font-size: 1.1rem;
+  color: green;
+  font-weight: 700;
+}
+
+.location {
+  display: flex;
+  align-items: center;
+}
+
+.location span {
+  margin-left: 10px;
+}
+
+.rating {
+  font-size: 1.3rem;
+  color: #F5B041;
+  margin: 7px 0;
+}
+
+.form-contact {
+  width: 50%;
+  margin: auto;
+}
+
+/* this is for a single page after clicking the button  */
+.temp_container {
+  display: grid;
+  grid-template-columns: 64% auto;
+}
+
+.left {
+  margin-right: 5%;
+}
+
+.left img {
+  width: 100%;
+  object-fit: cover;
+  height: 600px;
+
+}
+
+.talk {
+  margin: 1rem 0;
+  width: 100%;
+  padding: 0.8rem;
+  background: #F1C40F;
+  border-radius: 8px;
+  font-size: 1rem;
+  color: #fff;
+  font-weight: 600;
+  outline: none;
+  border: none;
+}
+
+hr {
+  margin: 0.7rem 0;
+}
+
+p {
+  margin-bottom: 0.6rem;
+}
+
+.owner_details {
+  margin: 2% 0 0 0;
+  width: 100%;
+  padding: 10px;
+  background-color: rgba(232, 229, 229, 0.887);
+  border-radius: 10px;
+  /* outline: 1px solid gray; */
+}
+
+.owner_details_h {
+  color: rgb(221, 93, 93);
+}
+
+/* this is for a single page after clicking the button  */
+
+
+/* about  */
+
+.tp {
+  font-size: 1.22rem;
+  padding: 1rem 4rem;
+}
+
+.htt {
+  margin-top: 1.5rem;
+  margin-left: 4rem;
+  color: orange;
+  font-size: 1.9rem;
+  font-weight: 620;
+}
+
+.about_text {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.nobe {
+  margin: auto;
+  font-size: 1.5rem;
+  color: #000;
+  padding: 1rem 0;
+}
+
+.reverse {
+  flex-direction: row-reverse;
+}
+
+/* about  */
+
+/* profile  */
+
+.profile {
+  background: rgba(225, 225, 225, 0.2);
+  border-radius: 50px;
+  padding: 6px;
+}
+
+.user_cotainer {
+  display: grid;
+  grid-template-columns: 30% auto;
+  gap: 20px;
+
+}
+
+.outline {
+  outline: 1px solid rgb(192, 188, 180);
+  padding: 1rem;
+}
+
+.user_detail {
+  display: flex;
+  justify-content: center;
+}
+
+.user_detail img {
+  border-radius: 50%;
+}
+
+.agentbe {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+}
+
+.cardsitems {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+}
+
+/* 
+.image_select {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 2px dashed rgba(55, 107, 219, 0.739);
+  border-radius: 7px;
+  color: rgba(55, 107, 219, 0.739);
+  padding: 1rem 0;
+} */
+
+/* profile  */
+@media only screen and (max-width: 1200px) {
+  .temp_container {
+    grid-template-columns: 60% auto;
+  }
+
+  .footer_container {
+    display: block;
+  }
+
+  .second-row {
+    margin-top: 1rem;
+  }
+
+  .upper_header {
+    display: inline;
+    font-size: 1rem;
+  }
+
+
+}
+
+@media only screen and (max-width: 991px) {
+  .temp_container {
+    display: block;
+  }
+
+  .price {
+    margin: 1rem 0;
+  }
+
+  .left {
+    margin-right: 0%;
+  }
+
+  .user_cotainer {
+    display: block;
+  }
+}
